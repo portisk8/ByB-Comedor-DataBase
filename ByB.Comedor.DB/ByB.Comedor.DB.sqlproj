@@ -70,5 +70,6 @@
     <Build Include="dbo\Tables\Usuarios.sql" />
     <Build Include="dbo\Tables\UsuarioPermiso.sql" />
     <Build Include="dbo\Tables\Permisos.sql" />
+    <Build Include="dbo\Tables\Comedores.sql" />
   </ItemGroup>
 </Project>
