@@ -64,11 +64,11 @@
     <Folder Include="Security\" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="dbo\Tables\TEST.sql" />
-    <Build Include="usuario\Tables\Usuario.sql" />
-    <Build Include="Security\usuario.sql" />
+    <None Include="Schema Compare\LocalToCore.scmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Schema Compare\LocalToCore.scmp" />
+    <Build Include="dbo\Tables\Usuarios.sql" />
+    <Build Include="dbo\Tables\UsuarioPermiso.sql" />
+    <Build Include="dbo\Tables\Permisos.sql" />
   </ItemGroup>
 </Project>
