@@ -72,5 +72,14 @@
     <Build Include="dbo\Tables\Comedores.sql" />
     <Build Include="dbo\Tables\ComedorDetalle.sql" />
     <Build Include="dbo\Tables\Permisos.sql" />
+    <Build Include="dbo\Tables\PersonaTipo.sql" />
+    <Build Include="dbo\Tables\DocumentoTipo.sql" />
+    <Build Include="dbo\Tables\Personas.sql" />
+    <Build Include="dbo\Tables\PersonasDetalle.sql" />
+    <Build Include="dbo\Tables\SexoTipo.sql" />
+    <Build Include="dbo\Tables\PersonaHistorial.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="ByB.Comedor.DB.refactorlog" />
   </ItemGroup>
 </Project>
