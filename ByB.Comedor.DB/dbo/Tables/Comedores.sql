@@ -3,7 +3,7 @@
     [Descripcion] VARCHAR (250) NOT NULL,
     [Titulo]      VARCHAR (250) NOT NULL,
     [DireccionCalle]      VARCHAR (250) NOT NULL,
-    [DireccionNumero]      INT NOT NULL,
+    [DireccionNumero]      INT NULL,
     CONSTRAINT [PK_Comedores] PRIMARY KEY CLUSTERED ([ComedorId] ASC)
 );
 

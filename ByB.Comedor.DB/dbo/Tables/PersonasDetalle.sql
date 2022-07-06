@@ -5,7 +5,7 @@
     [Edad]  INT NOT NULL,
     [DireccionCalle]  VARCHAR (MAX) NOT NULL,
     [DireccionNumero] INT NOT NULL,
-    [TelefenoNumero] INT NOT NULL,
+    [TelefonoNumero] VARCHAR(100) NOT NULL,
     [PersonaIdTutor]  INT NOT NULL,
     [FechaDeCarga]        DATETIME2(7) CONSTRAINT DF_PersonaDetalle_FechaDeCarga DEFAULT SYSDATETIME(),
     [UsuarioIdDeCarga] INT NOT NULL,
