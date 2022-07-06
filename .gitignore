@@ -1,3 +1,5 @@
 .vs
 **/*/obj
 **/*/bin
+/ByB.Comedor.DB/ByB.Comedor.DB.dbmdl
+/ByB.Comedor.DB/ByB.Comedor.DB.jfm
