@@ -62,9 +62,11 @@
     <Folder Include="usuario\" />
     <Folder Include="usuario\Tables\" />
     <Folder Include="Security\" />
+    <Folder Include="Publish" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Schema Compare\LocalToCore.scmp" />
+    <None Include="Publish\Local.publish.xml" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Usuarios.sql" />
