@@ -2,8 +2,8 @@
     [UsuarioPermisoId] INT IDENTITY(1,1) NOT NULL, --IDENTITY(1,1) lo hace auto incremental de a 1
     [PermisoId]        INT NOT NULL,
     [UsuarioId]        INT NOT NULL,
-    [FechaBaja]        VARCHAR(200) NULL,
-    [FechaDeCarga]     VARCHAR(200) NULL,
+    [FechaBaja]        DATETIME2(7) CONSTRAINT DF_UsuarioPermiso_FechaBaja DEFAULT SYSDATETIME(),
+    [FechaDeCarga]     DATETIME2(7) CONSTRAINT DF_UsuarioPermiso_FechaDeCarga DEFAULT SYSDATETIME(),
     [UsuarioIdDeCarga]      INT NULL,
     [UsuarioIdDeBaja]       INT NULL,
     CONSTRAINT [PK_UsuarioPermiso] PRIMARY KEY CLUSTERED ([UsuarioPermisoId] ASC),
